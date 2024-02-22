@@ -59,5 +59,14 @@ This is a sample FastAPI project demonstrating basic setup and usage.
 
 2. Open your web browser and go to `http://localhost:8000/docs` to access the API documentation (Swagger UI) and interact with the endpoints.
 
-3. To stop the server, press `Ctrl + C` in the terminal where the server is running.
+3. Additionally, you can test the charity search endpoint by accessing the following URL:
+
+
+    ```
+    http://localhost:8000/charity/search?query={query}&offset={offset}&limit={limit}
+    ```
+
+    Replace `{query}`, `{offset}`, and `{limit}` with your desired values. This URL will search for charities based on the specified query, offset, and limit.
+
+4. To stop the server, press `Ctrl + C` in the terminal where the server is running.
 
