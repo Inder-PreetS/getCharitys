@@ -17,7 +17,6 @@ async def search_charity(query: str = Query(...), limit: int = Query(100), offse
         access_token = get_access_token(client_id, client_secret)
         print(access_token, "*********Token***********")
 
-
         response = requests.get(
             f"https://api.ebay.com/commerce/charity/v1/charity_org?q={query}&limit={limit}&offset={offset}",
             headers={
