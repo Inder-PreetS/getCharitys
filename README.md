@@ -12,7 +12,7 @@ This is a sample FastAPI project demonstrating basic setup and usage.
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your_username/getCharitys.git
+    [git clone https://github.com/your_username/getCharitys.git](https://github.com/Inder-PreetS/getCharitys.git)
     ```
 
 2. Navigate to the project directory:
